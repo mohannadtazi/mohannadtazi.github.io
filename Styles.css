@@ -627,6 +627,33 @@ body{
   flex-wrap: wrap;
  
 }
+.v{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  height: 25vw;
+  margin: 5%;
+}
+@media screen and (max-width: 550px) {
+  .v{
+    
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50vw;
+    
+      margin: auto;
+      margin-top: 2%;
+      width: 90vw;
+     
+  }
+}
+
 h3{
   margin: 40px;
 }
