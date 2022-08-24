@@ -639,7 +639,7 @@ body{
 @media screen and (max-width: 550px) {
   .v{
     
-    height: auto;
+    
     border-radius: 15px;
     display: flex;
     flex-direction: row;
@@ -649,8 +649,8 @@ body{
     
       margin: auto;
       margin-top: 2%;
-      width: 90vw;
-     
+      width: 90%;
+      height: 75vw;
   }
 }
 
