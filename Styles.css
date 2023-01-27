@@ -636,7 +636,10 @@ body{
   height: 25vw;
   margin: 5%;
 }
+.lg{height: 5vw; padding: 1vw;}
 @media screen and (max-width: 550px) {
+  .lg{height: 8vw;
+    padding: 1vw;}
   .v{
     
     
